@@ -55,5 +55,34 @@ brew install git
 brew install ssh-copy-id
 brew install tree
 
+# Java Dev Kit
+brew cask install java
+
+# Build tools
+brew install ant
+brew install maven
+
+# NodeJs
+brew install node
+
+# Containers
+brew install tomcat
+
+# Docker toolbox (Docker Client, Docker Machine, Docker Compose, Docker Kitematic, VirtualBox)
+brew cask install dockertoolbox
+
+# Google Chrome
+brew cask install google-chrome
+
+# Intellij Idea
+# licence server http://15.idea.lanyus.com
+brew cask install intellij-idea
+
+# F.lux
+brew cask install flux
+
+# Slack
+brew cask install slack
+
 # Remove outdated versions from the cellar.
 brew cleanup
