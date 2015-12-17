@@ -50,3 +50,9 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Export Java Home
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_*.jdk/Contents/Home
 
+# ADL Configuration
+
+#export ADL_DIFF_TOOL="/usr/local/bin/ksdiff"      # Declares Kaleidoscope as diff tool (needed for 'scm diff')
+#export MK_RTV_PATH="/Users/<user>/Sites/rtv"      # Path to the runtime view (optional)
+export SCM_DEFAULT_WS="UWA_SWPPRJ_R419_n27"     # Default workspace (name) to use (optional)
+source "/Users/n27/IdeaProjects/scm-wrapper/scm.sh"             # Load the SCM helper script
