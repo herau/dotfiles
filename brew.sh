@@ -52,6 +52,7 @@ brew install woff2
 brew install ack
 brew install dark-mode
 brew install git
+brew install git bash-completion
 brew install ssh-copy-id
 brew install tree
 
@@ -61,6 +62,7 @@ brew cask install java
 # Build tools
 brew install ant
 brew install maven
+brew install gradle
 
 # NodeJs
 brew install node
